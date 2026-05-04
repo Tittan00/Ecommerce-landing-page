@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMIERE | Luxury Jewellery</title>
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      Free shipping on orders over <span>$500</span> | Use code
+      <span>LUMIERE20</span> for 20% off your first order
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">LUMI<span>ER</span>E</a>
+        <ul class="nav-links">
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <div class="nav-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.35-4.35" />
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+              />
+            </svg>
+          </div>
+          <div class="nav-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
+            <span class="cart-count">3</span>
+          </div>
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <canvas id="particles-canvas"></canvas>
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-subtitle">New Collection 2026</p>
+          <h1 class="hero-title">Discover Timeless <em>Elegance</em></h1>
+          <p class="hero-description">
+            Handcrafted jewellery that tells your story. Each piece is
+            meticulously designed with ethically sourced gemstones and precious
+            metals.
+          </p>
+          <div class="hero-buttons">
+            <a href="#shop" class="btn btn-primary">Shop Collection</a>
+            <a href="#featured" class="btn btn-outline">Explore More</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-frame">
+              <span class="hero-jewelry-icon">&#128142;</span>
+            </div>
+            <div class="floating-badge badge-1">
+              <div class="badge-icon">&#10024;</div>
+              <div class="badge-text">
+                Certified Diamonds<span>GIA Certified</span>
+              </div>
+            </div>
+            <div class="floating-badge badge-2">
+              <div class="badge-icon">&#127775;</div>
+              <div class="badge-text">18K Gold<span>Premium Quality</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-bar">
+      <div class="trust-container">
+        <div class="trust-item">
+          <div class="trust-icon">&#128666;</div>
+          <div class="trust-text">
+            <h4>Free Shipping</h4>
+            <p>On orders over $500</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">&#128274;</div>
+          <div class="trust-text">
+            <h4>Secure Payment</h4>
+            <p>100% secure checkout</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">&#128142;</div>
+          <div class="trust-text">
+            <h4>Certified Quality</h4>
+            <p>GIA certified diamonds</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">&#128256;</div>
+          <div class="trust-text">
+            <h4>30-Day Returns</h4>
+            <p>Hassle-free returns</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section categories" id="collections">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-subtitle">Browse by Category</p>
+          <h2 class="section-title">Our Collections</h2>
+          <p class="section-description">
+            Explore our curated collections, each designed to complement every
+            moment of your life.
+          </p>
+        </div>
+        <div class="categories-grid">
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/200 Lacoste.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Lacoste</h3>
+              <p class="category-count">24 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img
+                src="image/Bottle Umbrellas800.jpeg"
+                class="category-emoji"
+              />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Bottle Umbrella</h3>
+              <p class="category-count">96 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img
+                src="image/Dear Body splash250.jpeg"
+                class="category-emoji"
+              />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Dear Body Splash</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/Eclaire400.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Eclaire</h3>
+              <p class="category-count">72 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/jewelery 50.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Jewellery</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img
+                src="image/Mini Arabic splash 150.jpeg"
+                class="category-emoji"
+              />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Mini Arabic splash</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img
+                src="image/Mini Arabic splash150.jpeg"
+                class="category-emoji"
+              />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Mini Arabic Splash</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/Mousuf500.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Mousuf</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/Now perfume250.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Now Perfumes</h3>
+              <p class="category-count">84 Pieces</p>
+            </div>
+          </div>
+          <div class="category-card fade-in">
+            <div class="category-bg">
+              <img src="image/Shower Jells500.jpeg" class="category-emoji" />
+            </div>
+            <div class="category-overlay">
+              <h3 class="category-name">Shower Jell</h3>
+              <p class="category-count">72 Pieces</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="shop">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-subtitle">Handpicked for You</p>
+          <h2 class="section-title">Best Sellers</h2>
+          <p class="section-description">
+            Our most loved pieces, chosen by customers who appreciate fine
+            craftsmanship.
+          </p>
+        </div>
+        <div class="products-grid">
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/200 Lacoste.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Lacoste</p>
+              <h3 class="product-name">
+                Timeless elegance.Effortless confidence
+              </h3>
+              <div class="product-price">
+                <span class="current-price">ksh 200</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Bottle Umbrellas800.jpeg" class="product-emoji" />
+              <span class="product-badge popular">Popular</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Bottle Umbrellas</p>
+              <h3 class="product-name">Cascade Pearl Pendant</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 800</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(89)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Dear Body splash250.jpeg" class="product-emoji" />
+              <span class="product-badge sale">-30%</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Dear Body splash</p>
+              <h3 class="product-name">Sapphire Drop Earrings</h3>
+              <div class="product-price">
+                <span class="current-price">ksh800</span>
+                <span class="original-price">ksh1,600</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                <span class="rating-count">(67)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Eclaire400.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Eclaire</p>
+              <h3 class="product-name">Rose Gold Tennis Bracelet</h3>
+              <div class="product-price">
+                <span class="current-price">ksh400</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(45)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/jewelery 50.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Jewellery</p>
+              <h3 class="product-name">where elegance meets identity</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 50</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img
+                src="image/Mini Arabic splash 150.jpeg"
+                class="product-emoji"
+              />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Mini Arabic Splash</p>
+              <h3 class="product-name">luxury fragrance in your pocket</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 150</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img
+                src="image/Mini Arabic splash150.jpeg"
+                class="product-emoji"
+              />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Mini Arabic Splash</p>
+              <h3 class="product-name">luxury fragrance in your pocket</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 150</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Mousuf500.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Mousuf</p>
+              <h3 class="product-name">where elegance meets identity</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 500</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Now perfume250.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Now Perfumes</p>
+              <h3 class="product-name">make your presence unforgettable</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 250</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="product-card fade-in">
+            <div class="product-image">
+              <img src="image/Shower Jells500.jpeg" class="product-emoji" />
+              <span class="product-badge new">New</span>
+              <div class="product-actions">
+                <button class="product-action-btn">&#9825;</button>
+                <button class="product-action-btn">&#128065;</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p class="product-category">Shower Jells</p>
+              <h3 class="product-name">refresh.cleanse.glow</h3>
+              <div class="product-price">
+                <span class="current-price">ksh 500</span>
+              </div>
+              <div class="product-rating">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-count">(124)</span>
+              </div>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 60px">
+          <a href="#" class="btn btn-dark">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="stats-container">
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="38">0</div>
+          <div class="stat-label">Years of Craftsmanship</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Master Artisans</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Countries Served</div>
+        </div>
+        <div class="stat-item fade-in">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Ethically Sourced</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured" id="featured">
+      <div class="section-container">
+        <div class="featured-grid">
+          <div class="featured-image fade-in">
+            <span class="featured-emoji">&#128142;</span>
+          </div>
+          <div class="featured-content fade-in">
+            <p class="section-subtitle">Limited Edition</p>
+            <h2 class="section-title">The Celestial Collection</h2>
+            <p class="featured-description">
+              Inspired by the cosmos, this exclusive collection features rare
+              gemstones set in 18K gold. Each piece captures the ethereal beauty
+              of the night sky.
+            </p>
+            <div class="featured-details">
+              <div class="detail-item">
+                <span>&#10024;</span>
+                <span>Hand-set VS1 diamonds</span>
+              </div>
+              <div class="detail-item">
+                <span>&#10024;</span>
+                <span>18K yellow & white gold</span>
+              </div>
+              <div class="detail-item">
+                <span>&#10024;</span>
+                <span>Certificate of authenticity included</span>
+              </div>
+              <div class="detail-item">
+                <span>&#10024;</span>
+                <span>Lifetime warranty</span>
+              </div>
+            </div>
+            <div class="featured-price">
+              <span class="price">From $4,500</span>
+              <span class="note">Complimentary engraving</span>
+            </div>
+            <a href="#" class="btn btn-primary">Shop the Collection</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="about">
+      <div class="section-container">
+        <div class="section-header fade-in">
+          <p class="section-subtitle">Client Stories</p>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <p class="section-description">
+            Real stories from customers who found their perfect piece with
+            Lumiere.
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-stars">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              The craftsmanship is extraordinary. My engagement ring from
+              Lumiere exceeded every expectation. The attention to detail is
+              simply unmatched.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SE</div>
+              <div>
+                <p class="author-name">Sarah Edwards</p>
+                <p class="author-title">Verified Buyer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-stars">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              I've purchased several pieces over the years and each one becomes
+              an instant heirloom. The quality and service are consistently
+              exceptional.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MC</div>
+              <div>
+                <p class="author-name">Michael Chen</p>
+                <p class="author-title">Loyal Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in">
+            <div class="testimonial-stars">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </div>
+            <p class="testimonial-text">
+              From the beautiful packaging to the stunning necklace inside,
+              every detail was perfect. Lumiere understands what luxury truly
+              means.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EW</div>
+              <div>
+                <p class="author-name">Emma Wilson</p>
+                <p class="author-title">Verified Buyer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="newsletter-container fade-in">
+        <h2 class="newsletter-title">Join the Lumiere Family</h2>
+        <p class="newsletter-text">
+          Subscribe for exclusive access to new collections, private events, and
+          member-only offers.
+        </p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Enter your email address"
+            required
+          />
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="instagram">
+      <div class="section-header fade-in" style="margin-bottom: 50px">
+        <p class="section-subtitle">@lumierejewellery</p>
+        <h2 class="section-title">Follow Our Journey</h2>
+      </div>
+      <div class="instagram-grid">
+        <div class="instagram-item">
+          <span><img src="image/Mousuf500.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+        <div class="instagram-item">
+          <span><img src="image/Bottle Umbrellas800.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+        <div class="instagram-item">
+          <span><img src="image/Dear Body splash250.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+        <div class="instagram-item">
+          <span><img src="image/Eclaire400.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+        <div class="instagram-item">
+          <span><img src="image/jewelery 50.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+        <div class="instagram-item">
+          <span><img src="image/Mousuf500.jpeg" /></span>
+          <div class="instagram-overlay">&#128247;</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo">Lumiere<span>ER</span>E</a>
+            <p class="footer-description">
+              Crafting timeless jewellery since 1985. Each piece is a testament
+              to our commitment to excellence and ethical sourcing.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">Fb</a>
+              <a href="#" class="social-link">Ig</a>
+              <a href="#" class="social-link">Tw</a>
+              <a href="#" class="social-link">Pt</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-heading">Shop</h4>
+            <ul class="footer-links">
+              <li><a href="#">lacoste</a></li>
+              <li><a href="#">bottle umbrella</a></li>
+              <li><a href="#">Eclaire</a></li>
+              <li><a href="#">jewelery</a></li>
+              <li><a href="#">Mousuf</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Size Guide</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4 class="footer-heading">Get in Touch</h4>
+            <p>123 Westlands<br />Nairobi, NRB 00100</p>
+            <p>Phone: <a href="tel:+254117127235">+1 (254) 117127235</a></p>
+            <p>
+              Email: <a href="mailto:hello@lumiere.com">hello@lumiere.com</a>
+            </p>
+            <p>Mon-Sat: 10AM - 8PM</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2026 Lumiere Jewellery. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">&#8593;</button>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      const scrollTopBtn = document.getElementById("scrollTop");
+
+      window.addEventListener("scroll", () => {
+        navbar.classList.toggle("scrolled", window.scrollY > 50);
+        scrollTopBtn.classList.toggle("visible", window.scrollY > 500);
+      });
+
+      scrollTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      const fadeElements = document.querySelectorAll(".fade-in");
+      const fadeObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => {
+                entry.target.classList.add("visible");
+              }, index * 100);
+              fadeObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+      );
+
+      fadeElements.forEach((el) => fadeObserver.observe(el));
+
+      const statNumbers = document.querySelectorAll(".stat-number");
+      let statsAnimated = false;
+
+      const statsObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && !statsAnimated) {
+              statsAnimated = true;
+              statNumbers.forEach((stat) => {
+                const target = parseInt(stat.dataset.target);
+                let current = 0;
+                const increment = target / 60;
+                const timer = setInterval(() => {
+                  current += increment;
+                  if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                  }
+                  stat.textContent =
+                    Math.floor(current) + (target === 100 ? "%" : "+");
+                }, 25);
+              });
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      document
+        .querySelectorAll(".stats-section")
+        .forEach((el) => statsObserver.observe(el));
+
+      document
+        .getElementById("newsletterForm")
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          const input = e.target.querySelector("input");
+          const btn = e.target.querySelector("button");
+          btn.textContent = "Subscribed!";
+          btn.style.background = "#2d8a4e";
+          setTimeout(() => {
+            btn.textContent = "Subscribe";
+            btn.style.background = "";
+            input.value = "";
+          }, 2500);
+        });
+
+      document.querySelectorAll(".add-to-cart").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          const original = this.textContent;
+          this.textContent = "Added to Cart";
+          this.style.background =
+            "linear-gradient(135deg, var(--gold), var(--gold-dark))";
+          setTimeout(() => {
+            this.textContent = original;
+            this.style.background = "";
+          }, 2000);
+        });
+      });
+
+      document.querySelectorAll(".product-action-btn").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          if (this.textContent === "\u2661") {
+            this.textContent = "\u2764";
+            this.style.background = "#fff";
+            this.style.color = "#C75050";
+          } else if (this.textContent === "\u2764") {
+            this.textContent = "\u2661";
+            this.style.color = "";
+          }
+        });
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+
+      const canvas = document.getElementById("particles-canvas");
+      const ctx = canvas.getContext("2d");
+      let particles = [];
+      let mouseX = 0;
+      let mouseY = 0;
+
+      function resizeCanvas() {
+        canvas.width = canvas.parentElement.offsetWidth;
+        canvas.height = canvas.parentElement.offsetHeight;
+      }
+
+      resizeCanvas();
+      window.addEventListener("resize", resizeCanvas);
+
+      class Particle {
+        constructor() {
+          this.reset();
+        }
+
+        reset() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.size = Math.random() * 2 + 0.5;
+          this.speedX = (Math.random() - 0.5) * 0.4;
+          this.speedY = (Math.random() - 0.5) * 0.4;
+          this.opacity = Math.random() * 0.5 + 0.1;
+          this.fadeSpeed = Math.random() * 0.005 + 0.002;
+          this.growing = Math.random() > 0.5;
+        }
+
+        update() {
+          this.x += this.speedX;
+          this.y += this.speedY;
+
+          if (this.growing) {
+            this.opacity += this.fadeSpeed;
+            if (this.opacity >= 0.6) this.growing = false;
+          } else {
+            this.opacity -= this.fadeSpeed;
+            if (this.opacity <= 0.05) this.growing = true;
+          }
+
+          if (
+            this.x < 0 ||
+            this.x > canvas.width ||
+            this.y < 0 ||
+            this.y > canvas.height
+          ) {
+            this.reset();
+          }
+        }
+
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(198, 169, 108, ${this.opacity})`;
+          ctx.fill();
+        }
+      }
+
+      for (let i = 0; i < 60; i++) {
+        particles.push(new Particle());
+      }
+
+      function animateParticles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        particles.forEach((p, i) => {
+          p.update();
+          p.draw();
+
+          particles.slice(i + 1).forEach((p2) => {
+            const dx = p.x - p2.x;
+            const dy = p.y - p2.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 120) {
+              ctx.beginPath();
+              ctx.moveTo(p.x, p.y);
+              ctx.lineTo(p2.x, p2.y);
+              ctx.strokeStyle = `rgba(198, 169, 108, ${
+                0.06 * (1 - distance / 120)
+              })`;
+              ctx.lineWidth = 0.5;
+              ctx.stroke();
+            }
+          });
+        });
+
+        requestAnimationFrame(animateParticles);
+      }
+
+      animateParticles();
+
+      document.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+    </script>
+  </body>
+</html>
